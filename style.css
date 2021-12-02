@@ -1,0 +1,105 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/*ヘッダー*/
+.header{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-log{
+    height: 60px;
+    width: 60px
+}
+
+.header-title-log-area{
+    display: flex;
+}
+
+.header-title-log-area h1{
+    margin-left: 5px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/*ヘッダーナビ*/
+.navbar {
+  padding: 20px;
+}
+
+.nav-lists{
+    display: flex;
+}
+
+.nav-lists li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+/*コンテンツ*/
+.contents {
+  background-color: black;
+}
+
+.first-content {
+  height: calc(100vh - 50px);
+  background-color: red;
+}
+
+.top-image{
+    height: 100%;
+    width: 100%;
+}
+
+/*コンテンツ（おすすめピザ）*/
+.second-content{
+    height: 100vh;
+}
+
+
+.heading-name {
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid red;
+  width: 200px;
+  margin: 100px auto 130px;
+}
+
+.recommend-pizza{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recommend-pizza-image{
+  height: 300px;
+  width: 400px;
+}
+
+.pizza-name,
+.pizza-detail{
+  color: white;
+  text-align: center;
+}
